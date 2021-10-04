@@ -1,6 +1,6 @@
 {
-    "short_name":"MiPWA",
-    "name": "Mi primer PWA",
+    "short_name":"Noticias UTEZ",
+    "name": "Noticias UTEZ",
     "start_url": "index.html",
     "display":"standalone",
     "orientation":"portrait",

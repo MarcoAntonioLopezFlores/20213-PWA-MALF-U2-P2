@@ -26,6 +26,13 @@ self.addEventListener("install", (event) => {
       "./images/icons/android-launchericon-512-512.png",
       "./images/icons/android-launchericon-72-72.png",
       "./images/icons/android-launchericon-96-96.png",
+      //Se agregaron  las imágenes de las noticias como parte del cache estático pero en un futuro
+      //cuando se consuma el web service se deberán almacenar en el cache dinámico por lo cual en la parte de abajo esta el
+      //código para agregar todo aquello que no se encuentre en nuestros caches a un cache dinámico
+      "./images/noticia1.png",
+      "./images/noticia2.png",
+      "./images/noticia3.png",
+      "./images/noticia4.png",
       "./js/app.js",
     ]);
   });
